@@ -1,0 +1,51 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    background-color: #223c5f;
+    color: #ffffff;
+    padding: 50px;
+    text-align: right;
+}
+
+.menu li {
+    display:inline;
+    color: white;
+    padding: 20px;
+}
+
+.about {
+    background-color: #e97077 ;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.img {
+    float: left;
+    margin: 3px;
+    height: 200px;
+    border: solid black 5px;
+}
+
+.jobs {
+    background-color: #fd8c3e;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+.video {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    position: fixed;
+
+}
