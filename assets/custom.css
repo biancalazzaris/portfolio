@@ -14,9 +14,13 @@ header {
   float: left;
   padding-left: 20px;
 }
-
+a {
+    color: white;
+    text-decoration: none;
+  }
 .menu {
   float: right;
+
 }
 
 .menu li {
@@ -47,6 +51,7 @@ section {
 }
 
 .about {
+
   background-color: #bdc3c7;
   min-height: 50vh;
 }
