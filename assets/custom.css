@@ -4,7 +4,9 @@ body {
 }
 
 header {
-  background-color: #223c5f;
+  background: #9D50BB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   height: 70px;
   color: #fff;
   line-height: 4;
@@ -47,7 +49,7 @@ section {
 }
 
 .about {
-  background-color: #bdc3c7;
+  background-color: #efefef;
   min-height: 50vh;
 }
 
@@ -100,7 +102,10 @@ section {
 
 footer {
   width: 100vw;
-  background-color: lightgray;
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff7a, #83a4d424);
+  
   padding: 15px;
   
 }
