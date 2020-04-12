@@ -1,185 +1,182 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
-  background: #9D50BB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  height: 70px;
-  color: #fff;
-  line-height: 4;
+background: #9D50BB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+height: 70px;
+color: #fff;
+line-height: 4;
 }
 
 .brand {
-  float: left;
-  padding-left: 20px;
+float: left;
+padding-left: 20px;
 }
-a {
-    color: white;
-    text-decoration: none;
-  }
+
 .menu {
-  float: right;
+float: right;
 }
 
 .menu li {
-  display:inline;
-  padding: 20px;
+display:inline;
+padding: 20px;
 }
 
 .menu li a {
-  color: #ffffff;
-  text-decoration: none;
-  text-align: right;
+color: #ffffff;
+text-decoration: none;
+text-align: right;
 }
 
 .menu li a:hover {
-  color: #f1c40f;
-  text-decoration: underline;
+color: #f1c40f;
+text-decoration: underline;
 }
 
 section {
-  padding: 20px;
-  width: 100vw;
-  min-height: 50vh;
+padding: 20px;
+width: 100vw;
+min-height: 50vh;
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+width: 1200px;
+margin: 0 auto;
 }
 
 .about {
-  background-color: #efefef;
-  min-height: 50vh;
+background-color: #efefef;
+min-height: 50vh;
 }
 
 .about h3 {
-  padding: 20px 0 20px;
+padding: 20px 0 20px;
 }
 
 .about-photo {
-  float: left;
-  width: 40%;
+float: left;
+width: 40%;
 }
 
 .about-photo img {
-  border-radius: 50%;
-  border: 5px solid #efefef;
+border-radius: 50%;
+border: 5px solid #efefef;
 }
 
 .about-description {
-  float: left;
-  width: 48%;
+float: left;
+width: 48%;
 }
 
 .clearfix {
-  clear:booth;
+clear:booth;
 }
 
 .jobs {
-  background-color: #ecf0f1;
+background-color: #ecf0f1;
 }
 
 .video {
-  min-height: 80vh;
-  padding: 20px 0 20px 0;
-  text-align: center;
+min-height: 80vh;
+padding: 20px 0 20px 0;
+text-align: center;
 }
 
 .video h1 {
-  padding: 30px 0 10px 0;
+padding: 30px 0 10px 0;
 }
 
 
 .video p {
-  padding: 30px 0 30px 217px;
-  width: 800px;
-  text-align: center;
-  line-height: 2;
-  color: #877d7d;
+padding: 30px 0 30px 217px;
+width: 800px;
+text-align: center;
+line-height: 2;
+color: #877d7d;
 }
 
 
 footer {
-  width: 100vw;
-  background: #83a4d4;
-  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
-  background: linear-gradient(to right, #b6fbff7a, #83a4d424);
-  
-  padding: 15px;
-  
+width: 100vw;
+background: #83a4d4;
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+background: linear-gradient(to right, #b6fbff7a, #83a4d424);
+
+padding: 15px;
+
 }
 
 footer p {
-  text-align: center;
-  color: #222;
+text-align: center;
+color: #222;
 }
 
 h1 {
-  font-weight: bold;
-  font-size: 2em;
+font-weight: bold;
+font-size: 2em;
 }
 
 h3 {
-  font-weight: bold;
-  font-size: 1.2em;
-  padding-top: 10px;
-  padding-bottom: 10px;
+font-weight: bold;
+font-size: 1.2em;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 p {
-  font-size: 1em;
-  text-align: justify;
+font-size: 1em;
+text-align: justify;
 }
 
 .jobs p{
-  padding: 10px;
+padding: 10px;
 }
 
 .jobs h3 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .text-justify {
-  text-align: justify;
+text-align: justify;
 }
 
 .table-jobs {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 700px;
+border-collapse: collapse;
+border-spacing: 0;
+width: 700px;
 }
 
 .table-jobs td {
- padding: 0px 0 5px 0;
+padding: 0px 0 5px 0;
 }
 
 .td-title {
-  color: #222;
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: bold;
+color: #222;
+font-size: 1em;
+text-transform: uppercase;
+font-weight: bold;
 }
 
 .td-primary {
-  color: #222;
-  font-size: .9em;
+color: #222;
+font-size: .9em;
 }
 
 .td-secondary {
-  color: #b8b6b6;
-  font-size: .8em;
+color: #b8b6b6;
+font-size: .8em;
 }
 .tr-jobDescription {
-  height: 60px;
+height: 60px;
 }
 
 .td-jobDescription {
-  color: #222;
-  font-size: .8em;
-  line-height: 17px;
+color: #222;
+font-size: .8em;
+line-height: 17px;
 }
