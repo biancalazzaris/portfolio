@@ -1,0 +1,11 @@
+.blocoA {
+    color: black;
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    width: 800px;
+    height: 500px;
+}
+.blocoA p {
+    font-size: 12px;
+}
