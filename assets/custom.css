@@ -60,7 +60,9 @@ hr {
     position: fixed;
     top: 50px;
     left: 350px;
-    width: 900px;
+    width: 800px;
     height: 500px;
 }
-
+.blocoA p {
+    font-size: 12px;
+}
